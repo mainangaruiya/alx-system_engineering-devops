@@ -645,4 +645,4 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 103-dig_the-data
    
-Copyright © 2023 ALX, All rights reserved.
+
