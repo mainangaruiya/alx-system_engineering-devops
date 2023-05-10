@@ -1,4 +1,3 @@
-#!/bin/bash
-ip -4 addr | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | while read -r ip; do
-    echo "$ip"
-done
+#!/usr/bin/env bash
+# Script shows all active IPV4 IPs on the machine
+ifconfig | grep "inet addr:" | cut -d ':' -f 2- | cut -d ' ' -f 1
