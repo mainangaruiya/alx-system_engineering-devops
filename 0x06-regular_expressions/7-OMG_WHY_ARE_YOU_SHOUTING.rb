@@ -1,8 +1,4 @@
 #!/usr/bin/env ruby
+# this Only matches capital letters
 
-string = ARGV[0]
-regex = /[A-Z]/
-result = string.scan(regex).join
-
-puts result
-
+puts ARGV[0].scan(/[A-Z]/).join
